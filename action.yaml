@@ -1,0 +1,16 @@
+name: 'Work'
+description: 'Perform a task'
+
+inputs:
+  task:
+    description: 'Task to perform'
+    required: true
+    default: 'build'
+
+outputs:
+  task:
+    description: 'Task performed'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
