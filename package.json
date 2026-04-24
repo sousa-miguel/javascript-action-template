@@ -4,7 +4,7 @@
     "description": "Generic JavaScript action template",
     "main": "dist/index.js",
     "dependencies": {
-        "@actions/core": "^1.10.0"
+        "@actions/core": "^1.11.1"
     },
     "scripts": {
         "ci:format": "prettier --write src/",
